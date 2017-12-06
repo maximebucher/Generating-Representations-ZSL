@@ -55,6 +55,10 @@ python data/preprocessing.py
 ## Results
 
 
+![res](https://user-images.githubusercontent.com/34308944/33674588-4c04610c-dab0-11e7-9bdf-0a4ccad02a35.png)
+
+![res_gen](https://user-images.githubusercontent.com/34308944/33674605-4ffb6148-dab0-11e7-88f0-b1c81d999da9.png)
+
 
 When using our code please consider citing:
 ```
