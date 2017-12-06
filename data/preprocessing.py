@@ -1,5 +1,5 @@
 """
-Download data and preprocessing.
+Download data and preprocess
 """
 
 import numpy as np
@@ -7,8 +7,6 @@ import scipy.io
 import os
 import shutil
 
-DATA_SET = 'SUN'
-DIR = '../../../data_exp/xlsa17/data/' + DATA_SET + '/'
 
 
 def download_data():
@@ -37,9 +35,9 @@ def prepro_data(dataset_name):
             features_temp[i] = features[loc - 1]
             labels_temp[i, labels[loc - 1] - 1] = 1
             attributes_temp[i] = attributes[labels[loc - 1] - 1]
-        np.save(dataset_name + '/' + DATA_SET + '_' + name + '_features', features_temp)
-        np.save(dataset_name + '/' + DATA_SET + '_' + name + '_labels', labels_temp)
-        np.save(dataset_name + '/' + DATA_SET + '_' + name + '_attributes', attributes_temp)
+        np.save(dataset_name + '/' + dataset_name + '_' + name + '_features', features_temp)
+        np.save(dataset_name + '/' + dataset_name + '_' + name + '_labels', labels_temp)
+        np.save(dataset_name + '/' + dataset_name + '_' + name + '_attributes', attributes_temp)
     print "======="
 
 
