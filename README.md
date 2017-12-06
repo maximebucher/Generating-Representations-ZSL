@@ -29,6 +29,7 @@ scipy +0.19
 * APY: [aYahoo & aPascal](http://vision.cs.uiuc.edu/attributes/)  
 * SUN: [SUN Attribute](https://cs.brown.edu/~gen/sunattributes.html) 
 
+["Zero-Shot Learning - A Comprehensive Evaluation of the Good, the Bad and the Ugly"](https://arxiv.org/pdf/1707.00600.pdf) splits.
 
 ## Usage
 ### Preprocessing
@@ -40,16 +41,18 @@ python data/preprocessing.py
 
  * Basic usage `python gmmn.py`
  * Options
-    - `rnn_size`: Size of LSTM internal state. Default is 512.
-    - `num_lstm_layers`: Number of layers in LSTM
-    - `embedding_size`: Size of word embeddings. Default is 512.
-    - `learning_rate`: Learning rate. Default is 0.001.
-    - `batch_size`: Batch size. Default is 200.
-    - `epochs`: Number of full passes through the training data. Default is 50.
-    - `img_dropout`:  Dropout for image embedding nn. Probability of dropping input. Default is 0.5.
-    - `word_emb_dropout`: Dropout for word embeddings. Default is 0.5.
-    - `data_dir`: Directory containing the data h5 files. Default is `Data/`.
+    - `data_set`: Dataset to use.
+    - `num_epoch`: Number of epoch.
+    - `learning_rate`: Starting learning rate.
+    - `noise_size`: Input noise size.
+    - `drop_out_rate_input`: Drop out input on layer.
+    - `drop_out_rate`: Drop out on hidden layer.
+    - `validation`:  Validation stage, use validation split.
+    - `generalized`: Generalized zero shot learning.
+    - `nb_img`: Number of generated image feature by unseen class.
+    - `model_size`: Number and size of hidden layers.
 
+## Results
 
 
 
