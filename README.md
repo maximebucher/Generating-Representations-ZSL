@@ -27,3 +27,18 @@ scipy +0.19
 * APY: [aYahoo & aPascal](http://vision.cs.uiuc.edu/attributes/)  
 * SUN: [SUN Attribute](https://cs.brown.edu/~gen/sunattributes.html) 
 
+
+
+When using our code please consider citing:
+```
+@inproceedings{bucher2017generating,
+  title={Generating Visual Representations for Zero-Shot Classification},
+  author={Bucher, Maxime and Herbin, St{\'e}phane and Jurie, Fr{\'e}d{\'e}ric}
+  booktitle={International journal of computer vision Workshops},
+  year={2017},
+  organization={IEEE}
+}
+```
+
+
+
