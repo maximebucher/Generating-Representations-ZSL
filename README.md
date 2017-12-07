@@ -59,8 +59,12 @@ python data/preprocessing.py
 
 ![res_gen](https://user-images.githubusercontent.com/34308944/33674605-4ffb6148-dab0-11e7-88f0-b1c81d999da9.png)
 
+## References
+If you use this work for your projects, please take the time to cite our ICCVW'17 paper :
 
-When using our code please consider citing:
+http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w38/Bucher_Generating_Visual_Representations_ICCV_2017_paper.pdf 
+Maxime Bucher and Stéphane Herbin and Frédéric Jurie, Generating Visual Representations for Zero-Shot Classification, International Conference on Computer Vision Workshops, 2017.
+
 ```
 @inproceedings{bucher2017generating,
   title={Generating Visual Representations for Zero-Shot Classification},
@@ -70,6 +74,16 @@ When using our code please consider citing:
   organization={IEEE}
 }
 ```
+
+## License
+
+Code are released under the GPLv3 license for non-commercial and research purposes **only**. For commercial purposes, please contact the authors.
+
+See `LICENSE.md` for more details.
+
+## Acknowledgements
+
+This work has been conducted at [ONERA](http://www.onera.fr/en/dtim) and [GREYC CNRS](https://archive-www.greyc.fr/), with the support of "Région Normandie".
 
 
 
