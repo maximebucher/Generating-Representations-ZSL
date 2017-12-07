@@ -15,10 +15,10 @@ This code is based on Tensorflow +1.0. Please follow the official instructions t
 Remaining dependencies are:
 ```
 Python 2.7
-Tensorflow +1.0
-Numpy +1.13
-Sklearn +0.19
-scipy +0.19
+Tensorflow >1.0
+Numpy 1.13
+Sklearn 0.19
+scipy 0.19
 ```
 
 
@@ -86,6 +86,23 @@ python data/preprocessing.py
     - `encoder_size`: Number and size of hidden encoder layer.
     - `decoder_size`: Number and size of hidden decoder layer.
     - `discriminator_size`: Number and size of hidden discriminator layer.
+    
+ #### AC-GAN
+
+ * Basic usage `python ac_gan.py`
+ * Options
+    - `data_set`: Dataset to use.
+    - `num_epoch`: Number of epoch.
+    - `learning_rate`: Starting learning rate.
+    - `batch_size`: Batch_size size.
+    - `noise_size`: Input noise size.
+    - `drop_out_rate_input`: Drop out input on layer.
+    - `drop_out_rate`: Drop out on hidden layer.
+    - `validation`:  Validation stage, use validation split.
+    - `generalized`: Generalized zero shot learning.
+    - `nb_img`: Number of generated image feature by unseen class.
+    - `gen_size`: Number and size of hidden generator layer.
+    - `dis_size`: Number and size of hidden discriminator layer.
     
 
 ## Results
