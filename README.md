@@ -52,6 +52,23 @@ python data/preprocessing.py
     - `nb_img`: Number of generated image feature by unseen class.
     - `model_size`: Number and size of hidden layers.
 
+#### Auto-encoder
+
+ * Basic usage `python autoencoder.py`
+ * Options
+    - `data_set`: Dataset to use.
+    - `num_epoch`: Number of epoch.
+    - `learning_rate`: Starting learning rate.
+    - `batch_size`: Batch_size size.
+    - `noise_size`: Input noise size.
+    - `drop_out_rate_input`: Drop out input on layer.
+    - `drop_out_rate`: Drop out on hidden layer.
+    - `validation`:  Validation stage, use validation split.
+    - `generalized`: Generalized zero shot learning.
+    - `nb_img`: Number of generated image feature by unseen class.
+    - `encoder_size`: Number and size of hidden encoder layer.
+    - `decoder_size`: Number and size of hidden decoder_size layer.
+
 ## Results
 
 
@@ -79,11 +96,9 @@ Maxime Bucher and Stéphane Herbin and Frédéric Jurie, Generating Visual Repre
 
 Code are released under the GPLv3 license for non-commercial and research purposes **only**. For commercial purposes, please contact the authors.
 
-See `LICENSE.md` for more details.
-
 ## Acknowledgements
 
-This work has been conducted at [ONERA](http://www.onera.fr/en/dtim) and [GREYC CNRS](https://archive-www.greyc.fr/), with the support of "Région Normandie".
+This work has been conducted at [ONERA](http://www.onera.fr/en/) and [GREYC CNRS](https://archive-www.greyc.fr/), with the support of "Région Normandie".
 
 
 
