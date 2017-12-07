@@ -52,7 +52,7 @@ python data/preprocessing.py
     - `nb_img`: Number of generated image feature by unseen class.
     - `model_size`: Number and size of hidden layers.
 
-#### Auto-encoder
+#### Autoencoder
 
  * Basic usage `python autoencoder.py`
  * Options
@@ -67,7 +67,26 @@ python data/preprocessing.py
     - `generalized`: Generalized zero shot learning.
     - `nb_img`: Number of generated image feature by unseen class.
     - `encoder_size`: Number and size of hidden encoder layer.
-    - `decoder_size`: Number and size of hidden decoder_size layer.
+    - `decoder_size`: Number and size of hidden decoder layer.
+    
+ #### Adversarial Autoencoder
+
+ * Basic usage `python adversarial-autoencoder.py`
+ * Options
+    - `data_set`: Dataset to use.
+    - `num_epoch`: Number of epoch.
+    - `learning_rate`: Starting learning rate.
+    - `batch_size`: Batch_size size.
+    - `noise_size`: Input noise size.
+    - `drop_out_rate_input`: Drop out input on layer.
+    - `drop_out_rate`: Drop out on hidden layer.
+    - `validation`:  Validation stage, use validation split.
+    - `generalized`: Generalized zero shot learning.
+    - `nb_img`: Number of generated image feature by unseen class.
+    - `encoder_size`: Number and size of hidden encoder layer.
+    - `decoder_size`: Number and size of hidden decoder layer.
+    - `discriminator_size`: Number and size of hidden discriminator layer.
+    
 
 ## Results
 
