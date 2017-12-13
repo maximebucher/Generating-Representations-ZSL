@@ -115,7 +115,7 @@ python data/preprocessing.py
 ## References
 If you use this work for your projects, please take the time to cite our ICCVW'17 paper :
 
-http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w38/Bucher_Generating_Visual_Representations_ICCV_2017_paper.pdf 
+https://hal.archives-ouvertes.fr/hal-01576222v3/document
 Maxime Bucher and Stéphane Herbin and Frédéric Jurie, Generating Visual Representations for Zero-Shot Classification, International Conference on Computer Vision Workshops, 2017.
 
 ```
